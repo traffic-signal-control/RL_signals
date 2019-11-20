@@ -1,4 +1,4 @@
-# Reinforcement Learning for Traffic Signal Control.
+# Reinforcement Learning for Traffic Signal Control
 
 The aim of this repository 
 
@@ -39,13 +39,25 @@ The aim of this repository
 
 
 ### Traffic Simulator
-We built our own simulator, CityFlow. CityFlow is an opensourced multi-thread traffic simulator, fast and light.
+We built our own simulator, **CityFlow**. 
+
+CityFlow is an opensourced multi-thread traffic simulator, fast and light.
+
+[Project website](https://github.com/cityflow-project/CityFlow)   
+[Documentation and quick start](https://cityflow.readthedocs.io/en/latest/) 
+
+Screencast
+----------
+
+.. figure:: https://user-images.githubusercontent.com/44251346/62375390-c9e98600-b570-11e9-8808-e13dbe776f1e.gif
+    :align: center
+    :alt: demo
 
 
 
 | Paper          | Published | Notes   |
 | :------------- | :-------- | :-----: |
-|[CityFlow: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario]() | WWW'19 Demo| Simulator |
+|[CityFlow: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario](https://arxiv.org/abs/1905.05217) | WWW'19 Demo| Simulator |
 
 
  
