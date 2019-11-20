@@ -1,15 +1,16 @@
 # Reinforcement Learning for Traffic Signal Control
 
-The aim of this repository 
+The aim of this repository is to offering comprehensive **dataset**, **simulator**, relevant **papers** and **survey** to anyone who may wish to start investigation or evaluate a new algorithm.
 
 
 
-## Table of Contents
+## Table of contents
 
 
 - [Key paper list](#key-paper-list)
+- [Open Datasets](#open-datasets)
 - [Traffic Simulator](#traffic-simulator)
-- [A comprehensive survey](#a-comprehensive-survey)
+- [A comprehensive survey](#survey)
 
 
 
@@ -38,11 +39,72 @@ The aim of this repository
 | IntelliLight|[IntelliLight: A Reinforcement Learning Approach for Intelligent Traffic Light Control]() | KDD'18|First try on RL signal control. The base of all the methods|
 
 
+## Open datasets
+
+
+<table class="table">
+              <caption>All methods are measured in <a href="https://traffic-signal-control.github.io/TSCC2019/evaluation.html"> Average Travel Time</a> (in seconds).</caption>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Number of intersections</th>
+                  <th>Referred Result</th>
+                  <th>Refered method</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>hangzhou_1x1_bc-tyc_18041607_1h</td>
+                  <td> 1 </td>
+                  <td> 221.03 </td>
+                  <td>  SOTL </td>
+                    
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>hangzhou_1x1_bc-tyc_18041608_1h</td>
+                  <td> 1 </td>
+                  <td> 334.72 </td>
+                  <td> SOTL </td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>hangzhou_1x1_bc-tyc_18041610_1h</td>
+                  <td> 1 </td>
+                  <td> 213.20 </td>
+                  <td> SOTL </td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>hangzhou_1x1_kn-hz_18041607_1h</td>
+                  <td> 1 </td>
+                  <td>  72.48 </td>
+                  <td> SOTL </td>
+                </tr>
+                
+                <tr>
+                  <th scope="row">5</th>
+                  <td>hangzhou_1x1_kn-hz_18041608_1h</td>
+                  <td> 1 </td>
+                  <td> 64.10 </td>
+                  <td> SOTL  </td>
+                </tr>
+                
+                <tr>
+                  <th scope="row">6</th>
+                  <td>hangzhou_4x4_gudang_18041610_1h</td>
+                  <td> 16 </td>
+                  <td> 240.97 </td>
+                  <td> MaxPressure </td>
+                </tr>
+              </tbody>
+            </table>
 
 
 
-
-## Traffic Simulator
+## Traffic simulator
 We built our own simulator, **CityFlow**. 
 
 CityFlow is an opensourced multi-thread traffic simulator, fast and light.
@@ -55,13 +117,13 @@ CityFlow is an opensourced multi-thread traffic simulator, fast and light.
 
 
 
-| Paper          | Published | Notes   |
+<!--| Paper          | Published | Notes   |
 | :------------- | :-------- | :-----: |
 |[CityFlow: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario](https://arxiv.org/abs/1905.05217) | WWW'19 Demo| Simulator |
-
+-->
 
  
-## Survey paper
+## Survey
 
 [A Survey on traffic signal control]()
 
