@@ -6,13 +6,10 @@ The aim of this repository is to offering comprehensive **dataset**, **simulator
 
 ## Table of contents
 
-
 - [Key paper list](#key-paper-list)
 - [Open Datasets](#open-datasets)
 - [Traffic Simulator](#traffic-simulator)
 - [A comprehensive survey](#survey)
-
-
 
 ## Key paper list
 
@@ -28,14 +25,14 @@ The aim of this repository is to offering comprehensive **dataset**, **simulator
 ### Multi-intersection-->
 
 
-| Method | Paper          | Published | Notes   | Code | Demo video |
-| :------------- | :------------- | :-------- | :-----: | :-----: | :-----: | 
-| MPLight | [Toward A Thousand Lights: Decentralized Deep Reinforcement Learning for Large-Scale Traffic Signal Control]() | AAAI'2020 | A combination of PressLight and FRAP | [Link]() |[Demo]() |
+| Method | Paper          | Published | Notes   | Code | Demo video | Poster|
+| :------------- | :------------- | :-------- | :-----: | :-----: | :-----: | :-----: | 
+| MPLight | [Toward A Thousand Lights: Decentralized Deep Reinforcement Learning for Large-Scale Traffic Signal Control](https://traffic-signal-control.github.io/a-thousand-lights.html) | AAAI'2020 | A combination of PressLight and FRAP  | [Link]() |[Demo]() |
 |CoLight |[CoLight: Learning Network-level Cooperation for Traffic Signal Control]() | CIKM'19 | Attention-based coordination| [Link]() |
 |PressLight|[PressLight: Learning Max Pressure Control to Coordinate Traffic Signals in Arterial Network]()|KDD'19| Pressure-based coordination| [Link]() |[Demo]() |
 | FRAP  | [Learning Phase Competition for Traffic Signal Control]() | CIKM'19 | Our most powerful single intersectiton control model | [Link]() |
 | MetaLight |  [MetaLight: Value-based Meta-reinforcement Learning for Online Universal Traffic Signal Control]() |AAAI'2020 | Meta learning for universal traffic signal control | [Link]() |
-|DemoLight|[Learning Traffic Signal Control from Demonstrations]() |CIKM'19 | Learn for demonstrations | [Link]() |
+|DemoLight|[Learning Traffic Signal Control from Demonstrations]() |CIKM'19 | Learn from expert demonstrations | [Link]() |
 | IntelliLight|[IntelliLight: A Reinforcement Learning Approach for Intelligent Traffic Light Control]() | KDD'18|First try on RL signal control. The base of all the methods| [Link]() | [Demo]() |
 | CityFlow |[CityFlow: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario](https://arxiv.org/abs/1905.05217) | WWW'19 Demo| Simulator | [Link]()| [Demo]() |
 
