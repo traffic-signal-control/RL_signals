@@ -28,80 +28,30 @@ The aim of this repository is to offering comprehensive **dataset**, **simulator
 ### Multi-intersection-->
 
 
-| Method | Paper          | Published | Notes   |
-| :------------- | :------------- | :-------- | :-----: |
-| MPLight | [Toward A Thousand Lights: Decentralized Deep Reinforcement Learning for Large-Scale Traffic Signal Control]() | AAAI'2020 | A combination of PressLight and FRAP |
-|CoLight |[CoLight: Learning Network-level Cooperation for Traffic Signal Control]() | CIKM'19 | Attention-based coordination| 
-|PressLight|[PressLight: Learning Max Pressure Control to Coordinate Traffic Signals in Arterial Network]()|KDD'19| Pressure-based coordination|
-| FRAP  | [Learning Phase Competition for Traffic Signal Control]() | CIKM'19 | Our most powerful single intersectiton control model |
-| MetaLight |  [MetaLight: Value-based Meta-reinforcement Learning for Online Universal Traffic Signal Control]() |AAAI'2020 | Meta learning for universal traffic signal control |
-|DemoLight|[Learning Traffic Signal Control from Demonstrations]() |CIKM'19 | Learn for demonstrations |
-| IntelliLight|[IntelliLight: A Reinforcement Learning Approach for Intelligent Traffic Light Control]() | KDD'18|First try on RL signal control. The base of all the methods|
+| Method | Paper          | Published | Notes   | Code | Demo video |
+| :------------- | :------------- | :-------- | :-----: | :-----: | :-----: | 
+| MPLight | [Toward A Thousand Lights: Decentralized Deep Reinforcement Learning for Large-Scale Traffic Signal Control]() | AAAI'2020 | A combination of PressLight and FRAP | [Link]() |[Demo]() |
+|CoLight |[CoLight: Learning Network-level Cooperation for Traffic Signal Control]() | CIKM'19 | Attention-based coordination| [Link]() |
+|PressLight|[PressLight: Learning Max Pressure Control to Coordinate Traffic Signals in Arterial Network]()|KDD'19| Pressure-based coordination| [Link]() |[Demo]() |
+| FRAP  | [Learning Phase Competition for Traffic Signal Control]() | CIKM'19 | Our most powerful single intersectiton control model | [Link]() |
+| MetaLight |  [MetaLight: Value-based Meta-reinforcement Learning for Online Universal Traffic Signal Control]() |AAAI'2020 | Meta learning for universal traffic signal control | [Link]() |
+|DemoLight|[Learning Traffic Signal Control from Demonstrations]() |CIKM'19 | Learn for demonstrations | [Link]() |
+| IntelliLight|[IntelliLight: A Reinforcement Learning Approach for Intelligent Traffic Light Control]() | KDD'18|First try on RL signal control. The base of all the methods| [Link]() | [Demo]() |
+| CityFlow |[CityFlow: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario](https://arxiv.org/abs/1905.05217) | WWW'19 Demo| Simulator | [Link]()| [Demo]() |
 
 
 ## Open datasets
 
-
-<table class="table">
-              <caption>All methods are measured in <a href="https://traffic-signal-control.github.io/TSCC2019/evaluation.html"> Average Travel Time</a> (in seconds).</caption>
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Name</th>
-                  <th>Number of intersections</th>
-                  <th>Referred Result</th>
-                  <th>Refered method</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>hangzhou_1x1_bc-tyc_18041607_1h</td>
-                  <td> 1 </td>
-                  <td> 221.03 </td>
-                  <td>  SOTL </td>
-                    
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>hangzhou_1x1_bc-tyc_18041608_1h</td>
-                  <td> 1 </td>
-                  <td> 334.72 </td>
-                  <td> SOTL </td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>hangzhou_1x1_bc-tyc_18041610_1h</td>
-                  <td> 1 </td>
-                  <td> 213.20 </td>
-                  <td> SOTL </td>
-                </tr>
-                <tr>
-                  <th scope="row">4</th>
-                  <td>hangzhou_1x1_kn-hz_18041607_1h</td>
-                  <td> 1 </td>
-                  <td>  72.48 </td>
-                  <td> SOTL </td>
-                </tr>
-                
-                <tr>
-                  <th scope="row">5</th>
-                  <td>hangzhou_1x1_kn-hz_18041608_1h</td>
-                  <td> 1 </td>
-                  <td> 64.10 </td>
-                  <td> SOTL  </td>
-                </tr>
-                
-                <tr>
-                  <th scope="row">6</th>
-                  <td>hangzhou_4x4_gudang_18041610_1h</td>
-                  <td> 16 </td>
-                  <td> 240.97 </td>
-                  <td> MaxPressure </td>
-                </tr>
-              </tbody>
-            </table>
-
+| # | Name       | Referred Result| Refered method  |
+| :------------- | :------------- | :-------- | :-----: |
+| 1| hangzhou\_1x1\_bc-tyc\_18041607\_1h |	221.03 | SOTL
+| 2| hangzhou\_1x1\_bc-tyc\_18041608\_1h |	 334.72 | SOTL|
+||.....||
+<!--3	hangzhou_1x1_bc-tyc_18041610_1h		213.20	SOTL
+4	hangzhou_1x1_kn-hz_18041607_1h	1	72.48	SOTL
+5	hangzhou_1x1_kn-hz_18041608_1h	1	64.10	SOTL
+6	hangzhou_4x4_gudang_18041610_1h	16	240.97	MaxPressure
+-->
 
 
 ## Traffic simulator
