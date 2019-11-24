@@ -27,52 +27,389 @@ The aim of this repository is to offering comprehensive **dataset**, **simulator
 
 | Method | Paper          | Published | Notes   | Code | Demo video | Poster|
 | :------------- | :------------- | :-------- | :-----: | :-----: | :-----: | :-----: | 
-| MPLight | [Toward A Thousand Lights: Decentralized Deep Reinforcement Learning for Large-Scale Traffic Signal Control](https://traffic-signal-control.github.io/a-thousand-lights.html) | AAAI'2020 | A combination of PressLight and FRAP  | [Link]() |[Demo]() | [poster]()|
-|CoLight |[CoLight: Learning Network-level Cooperation for Traffic Signal Control]() | CIKM'19 | Attention-based coordination| [Link]() | | [poster]()|
-|PressLight|[PressLight: Learning Max Pressure Control to Coordinate Traffic Signals in Arterial Network]()|KDD'19| Pressure-based coordination| [Link]() |[Demo]() |[poster]()|
-| FRAP  | [Learning Phase Competition for Traffic Signal Control]() | CIKM'19 | Our most powerful single intersectiton control model | [Link]() ||[poster](https://github.com/traffic-signal-control/RL_signals/blob/master/posters/cikm2019_frap.pdf)|
-| MetaLight |  [MetaLight: Value-based Meta-reinforcement Learning for Online Universal Traffic Signal Control]() |AAAI'2020 | Meta learning for universal traffic signal control | [Link]() ||[poster]()|
-|DemoLight|[Learning Traffic Signal Control from Demonstrations]() |CIKM'19 | Learn from expert demonstrations | [Link]() |NA| [poster](https://github.com/traffic-signal-control/RL_signals/blob/master/posters/cikm-demolight.pdf)|
-| IntelliLight|[IntelliLight: A Reinforcement Learning Approach for Intelligent Traffic Light Control]() | KDD'18|First try on RL signal control. The base of all the methods| [Link]() | [Demo]()|[poster](https://github.com/traffic-signal-control/RL_signals/blob/master/posters/KDD18-intelliLight.pdf) |
-| CityFlow |[CityFlow: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario](https://arxiv.org/abs/1905.05217) | WWW'19 Demo| Simulator | [Link]()| [Demo]() |[poster]()|
+| MPLight | [Toward A Thousand Lights: Decentralized Deep Reinforcement Learning for Large-Scale Traffic Signal Control](https://traffic-signal-control.github.io/a-thousand-lights.html) | AAAI'2020 | A combination of PressLight and FRAP  | - |[Demo](https://traffic-signal-control.github.io/a-thousand-lights.html) | -|
+|CoLight |[CoLight: Learning Network-level Cooperation for Traffic Signal Control](https://sites.psu.edu/huawei/2019/09/15/colight-cikm-2019/) | CIKM'19 | Attention-based coordination| [Code](https://github.com/wingsweihua/colight) | N/A | -|
+|PressLight|[PressLight: Learning Max Pressure Control to Coordinate Traffic Signals in Arterial Network]()|KDD'19| Pressure-based coordination| [Code](https://github.com/wingsweihua/presslight) |[Demo](https://www.kdd.org/kdd2019/accepted-papers/view/presslight-learning-max-pressure-control-for-signalized-intersections-in-ar) |- |
+| FRAP  | [Learning Phase Competition for Traffic Signal Control](http://www.personal.psu.edu/~gjz5038/paper/cikm2019_frap/cikm2019_frap_paper.pdf) | CIKM'19 | Our most powerful single intersectiton control model | - | N/A |[poster](https://github.com/traffic-signal-control/RL_signals/blob/master/posters/cikm2019_frap.pdf)|
+| MetaLight |  MetaLight: Value-based Meta-reinforcement Learning for Online Universal Traffic Signal Control |AAAI'2020 | Meta learning for universal traffic signal control | - |-|-|
+|DemoLight|[Learning Traffic Signal Control from Demonstrations](https://dl.acm.org/citation.cfm?id=3357384.3358079) |CIKM'19 | Learn from expert demonstrations | - |N/A| [poster](https://github.com/traffic-signal-control/RL_signals/blob/master/posters/cikm-demolight.pdf)|
+| IntelliLight|[IntelliLight: A Reinforcement Learning Approach for Intelligent Traffic Light Control](https://www.kdd.org/kdd2018/accepted-papers/view/intellilight-a-reinforcement-learning-approach-for-intelligent-traffic-ligh) | KDD'18|First try on RL signal control. The base of all the methods| N/A | [Demo](https://www.kdd.org/kdd2018/accepted-papers/view/intellilight-a-reinforcement-learning-approach-for-intelligent-traffic-ligh)|[poster](https://github.com/traffic-signal-control/RL_signals/blob/master/posters/KDD18-intelliLight.pdf) |
+| CityFlow |[CityFlow: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario](https://arxiv.org/abs/1905.05217) | WWW'19 Demo| Simulator | [Code](https://github.com/cityflow-project/CityFlow)| [Demo](https://cityflow-project.github.io/) | N/A |
 
 
 ## Open datasets
 
-<img src="benchmark_data.png" width="800" />
+We provide different traffic datasets, each includes both road network (roadnet.json) and traffic flow file (flow.json), whose formats are defined in [Roadnet File Format](https://cityflow.readthedocs.io/en/latest/roadnet.html) and [Flow File Format](https://cityflow.readthedocs.io/en/latest/flow.html) respectively.
 
 
-<!--| # | Name       | Referred Result| Refered method  |
-| :------------- | :------------- | :-------- | :-----: |
-| 1| hangzhou\_1x1\_bc-tyc\_18041607\_1h |	221.03 | SOTL
-| 2| hangzhou\_1x1\_bc-tyc\_18041608\_1h |	 334.72 | SOTL|
-||.....||-->
-<!--3	hangzhou_1x1_bc-tyc_18041610_1h		213.20	SOTL
-4	hangzhou_1x1_kn-hz_18041607_1h	1	72.48	SOTL
-5	hangzhou_1x1_kn-hz_18041608_1h	1	64.10	SOTL
-6	hangzhou_4x4_gudang_18041610_1h	16	240.97	MaxPressure
--->
+ <section class="content-section " id="datasets">
 
+<div class="container">
 
-## Traffic simulator
-We built our own simulator, **CityFlow**. 
+<div class="caption-content">
 
-CityFlow is an opensourced multi-thread traffic simulator, fast and light.
+</div>
 
-[Project website](https://github.com/cityflow-project/CityFlow)   
-[Documentation and quick start](https://cityflow.readthedocs.io/en/latest/) 
+<div class="table-responsive" data-example-id="simple-table" style="overflow:scroll;">
 
+<table class="table"><caption>*All methods are measured in [Average Travel Time](https://traffic-signal-control.github.io/TSCC2019/evaluation.html) (in seconds) under [CityFlow](https://cityflow-project.github.io/) simulator.</caption>
 
-<img src="https://user-images.githubusercontent.com/44251346/62375390-c9e98600-b570-11e9-8808-e13dbe776f1e.gif" width="400" />
+<thead>
 
+<tr>
 
+<th>#</th>
 
-<!--| Paper          | Published | Notes   |
-| :------------- | :-------- | :-----: |
-|[CityFlow: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario](https://arxiv.org/abs/1905.05217) | WWW'19 Demo| Simulator |
--->
+<th>Dataset name</th>
 
- 
+<th>  
+Number of  
+Intersections  
+</th>
+
+<th>Time Span  
+(Seconds)</th>
+
+<th>Description</th>
+
+<th>Referred result*</th>
+
+<th>Referred method</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>1</td>
+
+<td>[<span>hangzhou_1x1_bc-tyc_18041607_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041607_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td rowspan="11">These datasets are based on camera data in Hangzhou.  
+Due to the lack of records about turning vehicles, the turning ratios of each dataset are fixed, with 10% as turning left, 60% as going straight, and 30% as turning right. The turning-right vehicles are discarded since they are not under the control of traffic lights.  
+There are one left-turn lane and one straight lane in each direction in each roadnet.</td>
+
+<td>221.03</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>2</td>
+
+<td>[<span>hangzhou_1x1_bc-tyc_18041608_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041608_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td>334.72</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>3</td>
+
+<td>[<span>hangzhou_1x1_bc-tyc_18041610_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041610_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td>213.20</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>4</td>
+
+<td>[<span>hangzhou_1x1_kn-hz_18041607_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_kn-hz_18041607_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td>72.48</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>5</td>
+
+<td>[<span>hangzhou_1x1_kn-hz_18041608_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_kn-hz_18041608_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td>64.10</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>6</td>
+
+<td>[<span>hangzhou_1x1_qc-yn_18041607_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_qc-yn_18041607_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td>117.24</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>7</td>
+
+<td>[<span>hangzhou_1x1_qc-yn_18041608_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_qc-yn_18041608_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td>131.99</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>8</td>
+
+<td>[<span>hangzhou_1x1_sb-sx_18041607_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_sb-sx_18041607_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td>173.85</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>9</td>
+
+<td>[<span>hangzhou_1x1_sb-sx_18041608_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_sb-sx_18041608_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td>290.00</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>10</td>
+
+<td>[<span>hangzhou_1x1_tms-xy_18041607_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_tms-xy_18041607_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td>214.77</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>11</td>
+
+<td>[<span>hangzhou_1x1_tms-xy_18041608_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_tms-xy_18041608_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td>325.32</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>12</td>
+
+<td>[<span>syn_1x1_uniform_200_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_1x1_uniform_200_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td rowspan="3">These datasets are generated artificially. The vehicles enter the road network uniformly with a fixed entering ratio chosen from 200, 400 and 600 vehicles per hour.</td>
+
+<td>61.44</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>13</td>
+
+<td>[<span>syn_1x1_uniform_400_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_1x1_uniform_400_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td>133.40</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>14</td>
+
+<td>[<span>syn_1x1_uniform_600_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_1x1_uniform_600_1h)</td>
+
+<td>1</td>
+
+<td>3600</td>
+
+<td>189.11</td>
+
+<td>[SOTL](code.html#methods)</td>
+
+</tr>
+
+<tr height="30">
+
+<td>15</td>
+
+<td>[<span>hangzhou_4x4_gudang_18010207_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_4x4_gudang_18010207_1h)</td>
+
+<td>16</td>
+
+<td>3600</td>
+
+<td>The road network contains 16 intersections in a 4x4 grid. Each intersection has four incoming approaches and four outgping approaches, and each approach has three lanes (left-turn, through and right-turn respectively).  
+The traffic flow data is based on camera data in Hangzhou. Necessary simplification is done due to the low quality of the real-world data.  
+• Traffic volume: the traffic volume is derived from camera data at Hangzhou.  
+• Turning ratio: 10% (turning left), 60%(going straight) and 30% (turning right). This is synthesized from the statistics of taxi GPS data.</td>
+
+<td>240.97</td>
+
+<td>MaxPressure</td>
+
+</tr>
+
+<tr height="30">
+
+<td>16</td>
+
+<td>[<span>syn_1x3_gaussian_500_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_1x3_gaussian_500_1h)</td>
+
+<td>3</td>
+
+<td>3600</td>
+
+<td rowspan="4">The road network contains 16 intersections in a 4x4 grid. Each intersection has four incoming approaches and four outgping approaches, and each approach has three lanes (left-turn, through and right-turn respectively).  
+• Traffic volume: All the vehicles enter and leave the network from the rim edges.For each entering edge, the number of the vehicles generated is sampled from a Gaussian distribution with mean as 500 vehicles/hour/lane.  
+• Turning ratio: 10% (turning left), 60%(going straight) and 30% (turning right)</td>
+
+<td>422.95</td>
+
+<td>MaxPressure</td>
+
+</tr>
+
+<tr height="30">
+
+<td>17</td>
+
+<td>[<span>syn_2x2_gaussian_500_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_2x2_gaussian_500_1h)</td>
+
+<td>4</td>
+
+<td>3600</td>
+
+<td>477.71</td>
+
+<td>MaxPressure</td>
+
+</tr>
+
+<tr height="30">
+
+<td>18</td>
+
+<td>[<span>syn_3x3_gaussian_500_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_3x3_gaussian_500_1h)</td>
+
+<td>9</td>
+
+<td>3600</td>
+
+<td>631.75</td>
+
+<td>MaxPressure</td>
+
+</tr>
+
+<tr height="30">
+
+<td>19</td>
+
+<td>[<span>syn_4x4_gaussian_500_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_4x4_gaussian_500_1h)</td>
+
+<td>16</td>
+
+<td>3600</td>
+
+<td>689.68</td>
+
+<td>MaxPressure</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+</section>
 ## Survey
 
 [A Survey on traffic signal control]()
