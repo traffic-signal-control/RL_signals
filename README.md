@@ -89,7 +89,8 @@ Intersections
 
 <td>1</td>
 
-<td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041607_1h"><span>hangzhou_1x1_bc-tyc_18041607_1h</span></a></td>
+<td><a
+              href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041607_1h"><span>hangzhou_1x1_bc-tyc_18041607_1h</span></a></td>
 <td>1</td>
 
 <td>3600</td>
@@ -100,7 +101,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>221.03</td>
 
- <td ><a class="nav-link js-scroll-trigger" href="code.html#methods">SOTL</a></td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -108,23 +109,23 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>2</td>
 
-<td>[<span>hangzhou_1x1_bc-tyc_18041608_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041608_1h)</td>
-
+                  <td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041608_1h"><span>hangzhou_1x1_bc-tyc_18041608_1h</span></a></td>
+    
 <td>1</td>
 
 <td>3600</td>
 
 <td>334.72</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
 <tr height="30">
 
 <td>3</td>
-
-<td>[<span>hangzhou_1x1_bc-tyc_18041610_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041610_1h)</td>
+<td>
+                      <a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041610_1h"><span >hangzhou_1x1_bc-tyc_18041610_1h</span></a></td>
 
 <td>1</td>
 
@@ -132,7 +133,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>213.20</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -140,7 +141,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>4</td>
 
-<td>[<span>hangzhou_1x1_kn-hz_18041607_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_kn-hz_18041607_1h)</td>
+                  <td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_kn-hz_18041607_1h"><span>hangzhou_1x1_kn-hz_18041607_1h</span></a></td>
 
 <td>1</td>
 
@@ -148,7 +149,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>72.48</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -156,7 +157,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>5</td>
 
-<td>[<span>hangzhou_1x1_kn-hz_18041608_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_kn-hz_18041608_1h)</td>
+                  <td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_kn-hz_18041608_1h"><span>hangzhou_1x1_kn-hz_18041608_1h</span></a></td>
 
 <td>1</td>
 
@@ -164,7 +165,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>64.10</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -172,7 +173,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>6</td>
 
-<td>[<span>hangzhou_1x1_qc-yn_18041607_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_qc-yn_18041607_1h)</td>
+                  <td><a  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_qc-yn_18041607_1h"><span>hangzhou_1x1_qc-yn_18041607_1h</span></a></td>
 
 <td>1</td>
 
@@ -180,7 +181,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>117.24</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -188,7 +189,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>7</td>
 
-<td>[<span>hangzhou_1x1_qc-yn_18041608_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_qc-yn_18041608_1h)</td>
+           <td><a  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_qc-yn_18041608_1h"><span>hangzhou_1x1_qc-yn_18041608_1h</span></a></td>
 
 <td>1</td>
 
@@ -196,7 +197,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>131.99</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -204,15 +205,14 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>8</td>
 
-<td>[<span>hangzhou_1x1_sb-sx_18041607_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_sb-sx_18041607_1h)</td>
-
+<td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_sb-sx_18041607_1h"><span>hangzhou_1x1_sb-sx_18041607_1h</span></a></td>
 <td>1</td>
 
 <td>3600</td>
 
 <td>173.85</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -220,15 +220,15 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>9</td>
 
-<td>[<span>hangzhou_1x1_sb-sx_18041608_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_sb-sx_18041608_1h)</td>
-
+ <td><a
+                  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_sb-sx_18041608_1h"><span>hangzhou_1x1_sb-sx_18041608_1h</span></a></td>
 <td>1</td>
 
 <td>3600</td>
 
 <td>290.00</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -236,7 +236,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>10</td>
 
-<td>[<span>hangzhou_1x1_tms-xy_18041607_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_tms-xy_18041607_1h)</td>
+<td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_tms-xy_18041607_1h"><span>hangzhou_1x1_tms-xy_18041607_1h</span></a></td>
 
 <td>1</td>
 
@@ -244,7 +244,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>214.77</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -252,15 +252,14 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>11</td>
 
-<td>[<span>hangzhou_1x1_tms-xy_18041608_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_tms-xy_18041608_1h)</td>
-
+<td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_tms-xy_18041608_1h"><span>hangzhou_1x1_tms-xy_18041608_1h</span></a></td>
 <td>1</td>
 
 <td>3600</td>
 
 <td>325.32</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -268,8 +267,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>12</td>
 
-<td>[<span>syn_1x1_uniform_200_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_1x1_uniform_200_1h)</td>
-
+<td><a  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_1x1_uniform_200_1h"><span>syn_1x1_uniform_200_1h</span></a></td>
 <td>1</td>
 
 <td>3600</td>
@@ -278,7 +276,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>61.44</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -286,7 +284,8 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>13</td>
 
-<td>[<span>syn_1x1_uniform_400_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_1x1_uniform_400_1h)</td>
+<td><a
+                  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_1x1_uniform_400_1h"><span>syn_1x1_uniform_400_1h</span></a></td>
 
 <td>1</td>
 
@@ -294,7 +293,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>133.40</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -302,7 +301,8 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>14</td>
 
-<td>[<span>syn_1x1_uniform_600_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_1x1_uniform_600_1h)</td>
+<td><a
+                  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_1x1_uniform_600_1h"><span>syn_1x1_uniform_600_1h</span></a></td>
 
 <td>1</td>
 
@@ -310,7 +310,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>189.11</td>
 
-<td>[SOTL](code.html#methods)</td>
+<td ><a class="nav-link js-scroll-trigger" href="https://traffic-signal-control.github.io/code.html">SOTL</a></td>
 
 </tr>
 
@@ -318,8 +318,8 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>15</td>
 
-<td>[<span>hangzhou_4x4_gudang_18010207_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_4x4_gudang_18010207_1h)</td>
-
+<td><a
+                  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_4x4_gudang_18010207_1h"><span>hangzhou_4x4_gudang_18010207_1h</span></a></td>
 <td>16</td>
 
 <td>3600</td>
@@ -339,8 +339,8 @@ The traffic flow data is based on camera data in Hangzhou. Necessary simplificat
 
 <td>16</td>
 
-<td>[<span>syn_1x3_gaussian_500_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_1x3_gaussian_500_1h)</td>
-
+ <td><a
+                  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_1x3_gaussian_500_1h"><span>syn_1x3_gaussian_500_1h</span></a></td>
 <td>3</td>
 
 <td>3600</td>
@@ -359,8 +359,8 @@ The traffic flow data is based on camera data in Hangzhou. Necessary simplificat
 
 <td>17</td>
 
-<td>[<span>syn_2x2_gaussian_500_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_2x2_gaussian_500_1h)</td>
-
+<td><a
+                  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_2x2_gaussian_500_1h"><span>syn_2x2_gaussian_500_1h</span></a></td>
 <td>4</td>
 
 <td>3600</td>
@@ -375,8 +375,7 @@ The traffic flow data is based on camera data in Hangzhou. Necessary simplificat
 
 <td>18</td>
 
-<td>[<span>syn_3x3_gaussian_500_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_3x3_gaussian_500_1h)</td>
-
+<td><a  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_3x3_gaussian_500_1h"><span>syn_3x3_gaussian_500_1h</span></a></td>
 <td>9</td>
 
 <td>3600</td>
@@ -391,8 +390,8 @@ The traffic flow data is based on camera data in Hangzhou. Necessary simplificat
 
 <td>19</td>
 
-<td>[<span>syn_4x4_gaussian_500_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_4x4_gaussian_500_1h)</td>
-
+ <td><a
+                  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/syn_4x4_gaussian_500_1h"><span>syn_4x4_gaussian_500_1h</span></a></td>
 <td>16</td>
 
 <td>3600</td>
@@ -421,10 +420,21 @@ The traffic flow data is based on camera data in Hangzhou. Necessary simplificat
 
 
 
-## How to contribute
-
+<!--## How to contribute
+-->
 
 
 ## Team
+
+- [Zhenhui Jessie Li](https://faculty.ist.psu.edu/jessieli/Site/index.html) (Associate professor, Penn State)
+- [Hua Wei](http://personal.psu.edu/hzw77/index.html) (PhD, Penn State University)
+- [Guanjie Zheng](http://www.personal.psu.edu/~gjz5038/) (PhD, Penn State University)
+- [Chacha Chen](https://chacha-chen.github.io/) (PhD, Penn State University)
+- [Nan Xu](https://sites.google.com/site/xunannancy/home) (PhD, University of Southern California)
+- [Yuanhao Xiong](https://xyh97.github.io/) (PhD, University of Los Angelos)
+- Kan Wu (PhD, Penn State University)
+- Xinshi Zang (Bachelor, Shanghai Jiao Tong University)
+- Huichu Zhang (PhD, Shanghai Jiao Tong University)
+- Jie Feng (PhD, Tsinghua University)
 
 
