@@ -52,7 +52,10 @@ We provide different traffic datasets, each includes both road network (roadnet.
 
 <div class="table-responsive" data-example-id="simple-table" style="overflow:scroll;">
 
-<table class="table"><caption>*All methods are measured in [Average Travel Time](https://traffic-signal-control.github.io/TSCC2019/evaluation.html) (in seconds) under [CityFlow](https://cityflow-project.github.io/) simulator.</caption>
+<table class="table">
+
+
+<caption>*All methods are measured in <a href="https://traffic-signal-control.github.io/TSCC2019/evaluation.html"> Average Travel Time</a> (in seconds) under <a href="https://cityflow-project.github.io/"> CityFlow</a> simulator.</caption>
 
 <thead>
 
@@ -86,8 +89,7 @@ Intersections
 
 <td>1</td>
 
-<td>[<span>hangzhou_1x1_bc-tyc_18041607_1h</span>](https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041607_1h)</td>
-
+<td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041607_1h"><span>hangzhou_1x1_bc-tyc_18041607_1h</span></a></td>
 <td>1</td>
 
 <td>3600</td>
@@ -98,7 +100,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>221.03</td>
 
-<td>[SOTL](code.html#methods)</td>
+ <td ><a class="nav-link js-scroll-trigger" href="code.html#methods">SOTL</a></td>
 
 </tr>
 
@@ -410,18 +412,12 @@ The traffic flow data is based on camera data in Hangzhou. Necessary simplificat
 </div>
 
 </section>
+
+
+
 ## Survey
 
-[A Survey on traffic signal control]()
-
-All Relative paper list
-
-
-
-
-
-
-
+[A Survey on traffic signal control](https://arxiv.org/abs/1904.08117)
 
 
 
