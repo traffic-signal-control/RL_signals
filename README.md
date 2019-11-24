@@ -54,7 +54,6 @@ We provide different traffic datasets, each includes both road network (roadnet.
 
 <table class="table">
 
-
 <caption>*All methods are measured in <a href="https://traffic-signal-control.github.io/TSCC2019/evaluation.html"> Average Travel Time</a> (in seconds) under <a href="https://cityflow-project.github.io/"> CityFlow</a> simulator.</caption>
 
 <thead>
@@ -108,8 +107,8 @@ There are one left-turn lane and one straight lane in each direction in each roa
 <tr height="30">
 
 <td>2</td>
-
-                  <td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041608_1h"><span>hangzhou_1x1_bc-tyc_18041608_1h</span></a></td>
+<td><a 
+href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_bc-tyc_18041608_1h"><span>hangzhou_1x1_bc-tyc_18041608_1h</span></a></td>
     
 <td>1</td>
 
@@ -141,7 +140,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>4</td>
 
-                  <td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_kn-hz_18041607_1h"><span>hangzhou_1x1_kn-hz_18041607_1h</span></a></td>
+<td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_kn-hz_18041607_1h"><span>hangzhou_1x1_kn-hz_18041607_1h</span></a></td>
 
 <td>1</td>
 
@@ -157,7 +156,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>5</td>
 
-                  <td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_kn-hz_18041608_1h"><span>hangzhou_1x1_kn-hz_18041608_1h</span></a></td>
+<td><a href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_kn-hz_18041608_1h"><span>hangzhou_1x1_kn-hz_18041608_1h</span></a></td>
 
 <td>1</td>
 
@@ -173,7 +172,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>6</td>
 
-                  <td><a  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_qc-yn_18041607_1h"><span>hangzhou_1x1_qc-yn_18041607_1h</span></a></td>
+<td><a  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_qc-yn_18041607_1h"><span>hangzhou_1x1_qc-yn_18041607_1h</span></a></td>
 
 <td>1</td>
 
@@ -189,7 +188,7 @@ There are one left-turn lane and one straight lane in each direction in each roa
 
 <td>7</td>
 
-           <td><a  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_qc-yn_18041608_1h"><span>hangzhou_1x1_qc-yn_18041608_1h</span></a></td>
+<td><a  href="https://github.com/traffic-signal-control/sample-code/tree/master/data/hangzhou_1x1_qc-yn_18041608_1h"><span>hangzhou_1x1_qc-yn_18041608_1h</span></a></td>
 
 <td>1</td>
 
