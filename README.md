@@ -401,6 +401,23 @@ The traffic flow data is based on camera data in Hangzhou. Necessary simplificat
 
 </tr>
 
+</tr>
+
+<tr height="30">
+
+<td>20</td>
+
+ <td>Manhattan</td>
+ <td>2510</td>
+
+<td>3600</td>
+
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+
 </tbody>
 
 </table>
